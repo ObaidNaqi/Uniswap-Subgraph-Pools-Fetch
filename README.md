@@ -54,14 +54,14 @@ $ npm install
 
 Create a .env file in the root of the project directory and add the following environment variables:
 
-MYSQL_ROOT_PASSWORD=password
-MYSQL_DATABASE=uniswap
-MYSQL_HOST=127.0.0.1
-MYSQL_PORT=3306
-MYSQL_USERNAME=root
-MYSQL_PASSWORD=password
-MYSQL_SYNCHRONIZE=true 
-UNISWAP_SUBGRAPH_URL=https://gateway-arbitrum.network.thegraph.com/api/[api-key]/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV
+- MYSQL_ROOT_PASSWORD=password
+- MYSQL_DATABASE=uniswap
+- MYSQL_HOST=127.0.0.1
+- MYSQL_PORT=3306
+- MYSQL_USERNAME=root
+- MYSQL_PASSWORD=password
+- MYSQL_SYNCHRONIZE=true 
+- UNISWAP_SUBGRAPH_URL=https://gateway-arbitrum.network.thegraph.com/api/[api-key]/subgraphs/id/5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV
 
 ## Running the app
 

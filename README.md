@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed on your machine:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/ObaidNaqi/uniswap-fetch.git
+git clone https://github.com/ObaidNaqi/Uniswap-Subgraph-Pools-Fetch.git
 cd uniswap-fetch
 
 ## 2. Installation

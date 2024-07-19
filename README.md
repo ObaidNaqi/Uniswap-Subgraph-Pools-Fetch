@@ -24,7 +24,7 @@
 
 ## Description
 
-This is a NestJS application that fetches pool data from the Uniswap Subgraph V3 using a GraphQL query and stores it in a MySQL database. The database setup is configured using Docker Compose.
+This is a NestJS backend application in TypeScript that periodically fetches data from the Uniswap subgraph and stores the data in a database. The database setup is configured using Docker Compose.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 Clone this repository to your local machine:
 
@@ -44,13 +44,13 @@ Clone this repository to your local machine:
 git clone https://github.com/ObaidNaqi/uniswap-fetch.git
 cd uniswap-fetch
 
-## 2 Installation
+## 2. Installation
 
 ```bash
 $ npm install
 ```
 
-## 4. Configure Environment Variables
+## Configure Environment Variables
 
 Create a .env file in the root of the project directory and add the following environment variables:
 
@@ -66,6 +66,9 @@ UNISWAP_SUBGRAPH_URL=https://gateway-arbitrum.network.thegraph.com/api/[api-key]
 ## Running the app
 
 ```bash
+# start mysql docker container
+$ docker-compose up -d
+
 # development
 $ npm run start
 
